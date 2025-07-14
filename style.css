@@ -1,3 +1,166 @@
-.h{
-  size: 16px;
+@font-face {
+    font-family: "Roboto";
+    src: url("C:\Users\админ\Downloads\Roboto-VariableFont_wdth,wght.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("c:\Users\админ\Downloads\Roboto-Italic-VariableFont_wdth,wght.ttf");
+    font-weight: 300;
+}
+
+
+.head{
+    height: 200px;
+    width: 100%;
+    font-family: 'Roboto';
+    
+}
+.nav{
+    height: 60px;
+    background-color: rgb(209, 139, 234);
+    width: 100%;
+}
+.nlist{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-family: 'Roboto';
+}
+.nav-link{
+    padding: 0 55px;
+    line-height: 50px;
+}
+.nav-item{
+    color: aliceblue;
+    font-size: larger;
+}
+.imgcv{
+    height: 180px;
+    width: 180px;
+}
+.unfooter{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(246, 227, 245);
+    margin-bottom: 0%;
+}
+.img1{
+    padding-left: 210px;
+    padding-top: 60px;
+}
+.h1{
+    
+    color: rgb(98, 36, 156);
+}
+.h2{
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-left: 390px;
+    margin-top: 120px;
+    text-align: justify;
+    text-decoration: overline;
+}
+
+.info1{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(246, 227, 245);
+    text-align: justify;
+    display: inline-flex;
+}
+.box1{
+    font-family: 'Roboto';
+    margin-left: 190px;
+    margin-top: 30px;
+    margin-right: 300px;
+    color: rgb(98, 36, 156);
+}
+
+.h3{
+    font-size: x-large;
+    font-weight: 500;
+    color: rgb(62, 24, 98);
+    text-decoration: underline;
+}
+.h4{
+    font-size: large;
+    font-weight: 200;
+
+}
+.box2{
+    font-family: 'Roboto';
+    margin-right: 100px;
+    margin-top: 30px;
+    color: rgb(98, 36, 156);
+}
+
+
+.info2{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(246, 227, 245);
+    text-align: justify;
+    display: inline-flex;
+    padding-top: 20px;
+}
+.box3{
+    width: 480px;
+    padding-left: 190px;
+    color: rgb(98, 36, 156);
+    font-family: 'Roboto';
+}
+.box4{
+    width: 300px;
+    padding-left: 140px;
+    color: rgb(98, 36, 156);
+    font-family: 'Roboto';
+}
+.h5{
+    text-indent: 2%;
+    font-size: large;
+    font-weight: 200;
+}
+
+
+.footer{
+    height: 60px;
+    background-color: rgb(209, 139, 234);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.git{
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(62, 24, 98);
+    margin-left: 530px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 13px;
+    padding-left: 70px;
+}
+.year{
+    color: rgb(62, 24, 98);
+    font-size: medium;
+    font-weight: 300;
+    padding-left: 70px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+.course{
+    color: rgb(62, 24, 98);
+    font-size: medium;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-top: 18px;
+    font-family: 'Roboto';
 }
