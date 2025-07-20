@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("C:\Users\админ\Downloads\Roboto-VariableFont_wdth,wght.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("c:\Users\админ\Downloads\Roboto-Italic-VariableFont_wdth,wght.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Forum";
+    src: url("C:\Users\админ\Downloads\ofont.ru_Forum.ttf");
+}
+
+.body{
+    width: 1920px;
+    font-family: "Roboto";
+}
+.boxblack{
+    background-color: black;
+    height: 400px;
+}
+.header{
+    height: 150px;
+    background-color: black;
+    width: 1920px;
+    
+}
+.headerbox{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 240px;
+    
+}
+.logo{
+    width: 199px;
+    height: 33px;
+    padding-top: 59px;
+}
+
+.nlist{
+    display: flex;
+    justify-content: flex-start;
+    height: 26px;
+    width: 775px;
+    padding-top: 45px;
+    padding-left: 475px;
+}
+.nav-link{
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    text-decoration: none;
+
+}
+.nav-item{
+    color: #FFFFFF;
+    list-style: none;
+    margin-right: 53px;
+}
+
+.main{
+    width: 1440px;
+    height: 8717px;
+    padding-left: -240px;
+    opacity: 1;
+}
+
+.box1{
+    background-color: #030303;
+    width: 1920px;
+    height: 842px;
+    padding-left: -240px;
+    opacity: 1;
+    margin-top: 0%;
+    position: relative;
+}
+.monalisa{
+    position: absolute;
+    top: 0%;
+    width: 1000px;
+    height: 750px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%);
+    padding-left: 680px;
+
+}
+.frame1{
+    color: #FFFFFF;
+    width: 690px;
+    height: 388px;
+    padding-top: 150px;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    
+}
+.h1{
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    z-index: 2;
+}
+.h2{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+.button1{
+    margin-top: 75px;
+    width: 360px;
+    height: 75px;
+    opacity: 1;
+    border-radius: 10px;
+    background-color: #710707;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    z-index: 2;
+}
