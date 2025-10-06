@@ -1,1 +1,2 @@
-# rsschool_Q3
+https://nika-g05.github.io/rsschool-cv/cv
+https://nika-g05.github.io/rsschool-cv/
