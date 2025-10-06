@@ -1,1 +1,2 @@
-https://nika-g05.github.io/rs-cv/cv
+https://nika-g05.github.io/rsschool-cv/cv
+https://nika-g05.github.io/rsschool-cv/
